@@ -1,0 +1,174 @@
+.colored-section {
+  color: #FFF;
+  background-color: #8D1935;
+}
+
+body {
+  font-family: 'Source Serif Pro', serif;
+}
+
+.d-block {
+  width: 60%;
+}
+
+.white-section .cv2 {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #8D1935;
+  position: relative;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 3rem;
+  padding-top: 6rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3, h4, h5 {
+  font-size: 1.5rem;
+  text-indent: 2em;
+  margin-left: 15px;
+}
+
+hr {
+  background-color: #FFF;
+  border: dotted #8D1935 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+.heading {
+  color: #FFF;
+  text-align: center;
+  padding-top: 25%;
+}
+
+.heading2 {
+  padding-top: 6rem;
+  text-align: center;
+  text-indent: 2em;
+}
+
+p {
+  padding-bottom: 1rem;
+  text-indent: 2em;
+}
+
+.navbar-toggler {
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.social-icon {
+  color: #FFF;
+  margin: 15px;
+  margin-right: 20px;
+}
+
+.icons {
+  color: #8D1935;
+  padding-left: 43%;
+}
+
+.social-icon:hover {
+  color: #d3d3d3;
+}
+
+.offcanvas {
+  color: #FFF;
+}
+
+.carousel-section {
+  background-color: #423F3E;
+  color: #FFF;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 60%;
+}
+
+.suggestion {
+  padding-top: 2rem;
+}
+
+.form-group {
+  width: 600px;
+  position: relative;
+  left: 50%;
+  margin-left: -300px;
+  text-align: center;
+}
+
+.btn {
+  border-color: #000;
+  margin-left: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn:hover {
+  border-color: #FFF;
+}
+
+.footer {
+  background-color: #423F3E;
+  color: #FFF;
+  font-size: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 0;
+}
+
+[data-anime] {
+  opacity: 0;
+  transition: 1s;
+}
+
+[data-anime="up"] {
+  transform: translate3d(0, 100%, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+@media (max-width: 1028px) {
+  #title {
+    padding-top: 20%;
+    text-align: center;
+  }
+
+  .navbar {
+    display: flex;
+    position: absolute;
+  }
+
+  .form-group {
+    margin-left: -420px;
+    text-align: center;
+  }
+
+  .icons {
+    padding-left: 20%;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    margin-left: 40%;
+  }
+}
