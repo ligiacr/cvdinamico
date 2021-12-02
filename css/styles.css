@@ -101,29 +101,6 @@ img {
   width: 60%;
 }
 
-.suggestion {
-  padding-top: 2rem;
-}
-
-.form-group {
-  width: 600px;
-  position: relative;
-  left: 50%;
-  margin-left: -300px;
-  text-align: center;
-}
-
-.btn {
-  border-color: #000;
-  margin-left: 50%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.btn:hover {
-  border-color: #FFF;
-}
-
 .footer {
   background-color: #423F3E;
   color: #FFF;
@@ -158,17 +135,8 @@ img {
     position: absolute;
   }
 
-  .form-group {
-    margin-left: -420px;
-    text-align: center;
-  }
-
   .icons {
     padding-left: 20%;
     margin-bottom: 1rem;
-  }
-
-  .btn {
-    margin-left: 40%;
   }
 }
